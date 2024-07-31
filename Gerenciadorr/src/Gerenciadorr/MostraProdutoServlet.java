@@ -27,10 +27,10 @@ public class MostraProdutoServlet extends HttpServlet {
             out.println("<html><body>");
             out.println("Produto: " + produto.getNome() + "<br>");
             out.println("Unidade de Compra: " + produto.getUnidadeCompra()+ "<br>");
-            out.println("Descrição: " + produto.getDescricao()+ "<br>");
-            out.println("Quantidade Prevista por Mês: " + produto.getQtdPrevistoMes()+ "<br>");
-            out.println("Preço Máximo Comprado: " + produto.getPrecoMaxComprado()+ "<br><br><br>");
-            out.println("Criado por: Eric Nahas CB3020096 && Armando Righi de Souza CB302038X");
+            out.println("Descri  o: " + produto.getDescricao()+ "<br>");
+            out.println("Quantidade Prevista por M s: " + produto.getQtdPrevistoMes()+ "<br>");
+            out.println("Pre o M ximo Comprado: " + produto.getPrecoMaxComprado()+ "<br><br><br>");
+            out.println("Criado por: Ivaldo Fernandes - CB3020878");
             out.println("</body></html>");
         }
     }
